@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITE 61</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+<nav class="bg-black fixed top-0 z-100 w-full h-16 flex justify-between md:justify-center items-center">
+    <div class="h-full w-2/3 md:w-1/3 flex justify-center items-center">
+    <h1 class="logo text-lime-200 text-xl md:text-3xl tracking-wider m-auto ms-4">FİRMA LOGOSU</h1>
+    </div>
+
+    <ul class="hidden md:flex m-auto h-full w-1/3 flex flex-row justify-center items-center gap-10">
+        <li>
+            <a href="#" class="text-lime-200 transition hover:duration-700 p-3 hover:text-lime-500 text-sm tracking-wider">Anasayfa</a>
+        </li>
+        <li>
+            <a href="#hakkimizda" class="text-lime-200 transition hover:duration-700 p-3 hover:text-lime-500 text-sm tracking-wider">Hakkımızda</a>
+        </li>
+        <li>
+            <a href="#hizmetlerimiz" class="text-lime-200 transition hover:duration-700 p-3 hover:text-lime-500 text-sm tracking-wider">Hizmetlerimiz</a>
+        </li>
+        <li>
+            <a href="#iletisim" class="text-lime-200 transition hover:duration-700 p-3 hover:text-lime-500 text-sm tracking-wider">İletişim</a>
+        </li>
+    </ul>
+
+    <div class="hidden md:flex h-full w-1/3 justify-center items-center">
+    <div class="m-auto btns h-full w-fit flex justify-center items-center gap-2 me-2">
+    <button class="rounded btn text-sm text-lime-200 m-auto py-1 px-4">aaaaaaa@gmail.com</button>
+    <button class="rounded btn text-sm text-lime-200 m-auto py-1 px-4">02165421907</button>
+    </div>
+    </div>
+    <img class="block md:hidden h-8 w-8 me-4" src="images/hamburger.png">
+</nav>
+
+<section class="anasayfa h-screen w-screen flex flex-col justify-center items-center">
+    <h1 class="text-2xl md:text-7xl text-black p-2 w-5/6 md:w-fit">Websitemize Hoşgeldiniz</h1>
+    <h1 class="text-sm text-white p-2 mt-4 bg-lime-500 w-4/5 md:w-fit">Responsive ve Interaktif web siteleri için doğru adrestesiniz.</h1>
+    
+</section>
+
+<section id="hakkimizda" class="hakkimizda p-4 md:p-0 h-fit md:h-screen w-screen flex flex-col justify-center items-center">
+    <h1 class="text-2xl md:text-7xl text-black p-2 w-5/6 md:w-fit">HAKKIMIZDA</h1>
+    <h1 class="text-xs md:text-sm p-2 mt-4 bg-white text-lime-500 w-5/6">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt enim vel eleifend tincidunt. Proin quis imperdiet metus. In sodales, purus ac interdum fermentum, sapien nisi porttitor lectus, at varius leo sem non sapien. Proin viverra in nunc at laoreet. Sed ut varius dui, ac finibus elit. Suspendisse potenti. Aliquam consectetur mauris in nibh eleifend finibus. Nulla dictum elementum turpis, eget lobortis ligula fermentum sit amet. Nulla consequat, eros et maximus feugiat, velit dolor auctor enim, scelerisque congue ligula nisi vitae lacus. Nam fermentum sapien quis erat gravida, sit amet fermentum nunc auctor. Aenean tortor risus, sagittis vitae nibh eget, pulvinar vulputate purus. Aenean vehicula at dui vel ornare. Ut ac enim vitae ipsum pulvinar consequat. Ut consectetur egestas eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet sed magna et ornare. 
+    </h1>
+    
+</section>
+
+<section id="hizmetlerimiz" class="hizmetlerimiz p-4 md:p-0 h-fit md:h-screen w-screen flex flex-col justify-center items-center">
+
+    <h1 class="mt-4 text-2xl md:text-7xl text-white p-2 w-5/6 md:w-fit">HİZMETLERİMİZ</h1>
+
+    <div class="mt-8 h-92 w-5/6 md:w-2/3 flex flex-col md:flex-row justify-center items-center gap-4">
+
+        <div class="hcard h-full w-full md:w-1/2 p-5 rounded-sm">
+            <img class="m-auto h-48 w-48" src="images/webdesign.svg">
+            <h1 class="text-3xl text-white">Web Tasarımı</h1>
+            <p class="mt-4 text-sm text-white">Sizin için mobile uyumlu ve interaktif web siteleri tasarlıyoruz.
+                Tasarımlarda css, vanilla css ve javascript kullanıyoruz.
+            </p>
+        </div>
+
+        
+        <div class="hcard h-full w-full md:w-1/2  p-5 rounded-sm">
+            <img class="m-auto h-48 w-48" src="images/siteedit.svg">
+            <h1 class="text-3xl text-white">Web Site Düzenleme</h1>
+            <p class="mt-4 text-sm text-white">Sitenizin tasarımı üzerinde css ve javascript kullanarak düzenlemeler yapıyoruz.
+            </p>
+        </div>
+
+      
+    
+
+    </div>
+</section>
+
+<section id="iletisim" class="iletisim h-screen w-screen flex flex-col justify-center items-center">
+    <p class="mt-20 adres text-xl">Şükrü Saracoğlu Stadyumu, Bağdat Cad, Kızıltoprak, No:2, 34724 Kadıköy/İstanbul</p>
+    <p class="tel text-xl mt-4">02165421907</p>
+    <iframe class="mt-4 h-1/3 w-3/4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.732557776964!2d29.034563024957407!3d40.98733672071579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab870784d1389%3A0x2bf4921764859e70!2sUlker%20Fenerbahce%20Sukru%20Saracoglu%20Stadium!5e0!3m2!1sen!2str!4v1705441431692!5m2!1sen!2str" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+</body>
+</html>
